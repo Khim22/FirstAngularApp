@@ -1,0 +1,18 @@
+<form (ngSubmit)="processForm()" #addForm="ngForm"> 
+  <div style="display: block; text-align:center">
+    <h1>My Address Book</h1>
+      <div>
+          Name:
+          <input type="text" name="name" ngModel/>
+        </div>
+        <div>
+          Address:
+          <input type="text" name="address" ngModel/>
+        </div>
+        <div>
+          Contact:
+          <input type="text" name="contact" ngModel/>
+        </div>
+        <button type="submit">Add</button>
+  </div> 
+</form>
